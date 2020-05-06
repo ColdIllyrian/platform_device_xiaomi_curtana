@@ -60,6 +60,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.curtana
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
